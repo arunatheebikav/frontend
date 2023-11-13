@@ -7,6 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 <title>oil</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
 <link rel="stylesheet"  href="script.css">
 </head>
 
@@ -15,13 +16,13 @@
         <a href="#"><img src="img/logo.png" class="logo" alt="" ></a>
         <div>
             <ul id="navbar">
-                <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="shop.html">Shop</a></li>
-        
+                <li><a  href="index.html">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li id="lg-bag"><a href="cart.html"><i class="fa-sharp fa-solid fa-bag-shopping"></i></a></li>
-                <a href="#" id="close"><i class="fa-solid fa-x"></i></a>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
             </ul>
         </div>
         <div id="mobile">
@@ -29,41 +30,34 @@
             <i id="bar" class="fas fa-outdent"></i>
         </div>
     </section>
-    <section id="hero">
-        <h4>Trade-in-offer</h4>
-        <h2>super value deals</h2>
-        <h1>On all products</h1>
-        <p>Save more with coupons & up to 25% off!</p>
-        <button>Shop now</button>
-
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="img/s-oil.jpeg" width="100%" id="MainImg" alt="">
+            <div class="small-img-group">
+            </div>
+        </div>
+        <div class="single-pro-details">
+            <h1>Naanayam</h1>
+            <h4>Sesame Oil</h4>
+            <h2>Rs.360/ltr</h2>
+            <select>
+                <option>Litre</option>
+                <option>1/2 ltr</option>
+                <option>1 ltr</option>
+                <option>5 ltr</option>
+                <option>15 ltr</option>
+            </select>
+            <input type="number" value="1">
+            <button class="normal">Add To Cart</button>
+            <h4>Product Details </h4>
+            <span>Sesame oil is extracted by pressing or crushing sesame seeds, releasing their natural oils.
+                 The traditional method involves roasting the seeds before pressing to enhance flavor. 
+                 Cold-pressed varieties are extracted without heat to preserve the oil's original taste and nutritional value. 
+                The resulting golden-hued oil is then filtered and packaged, ready to infuse dishes with its distinctive nutty character.</span>
+        </div>
     </section>
-     <section id="feature" class="section-p1">
-        <div class="fe-box">
-            <img src="img/delivery.png" alt="">
-            <h6>Free Shipping</h6>
-
-        </div>
-        <div class="fe-box">
-            <img src="img/online-order.png" alt="">
-            <h6>Online Order</h6>
-
-        </div>
-        <div class="fe-box">
-            <img src="img/save-img.png" alt="">
-            <h6>Save Money</h6>
-
-        </div>
-        <div class="fe-box">
-            <img src="img/twenty4.png" alt="">
-            <h6>24/7 Support</h6>
-
-        </div>
-
-        
-        
-     </section>
-     <section id="product1" class="section-p1">
-        <h2>Ever-Pure Sesame oils</h2>
+    <section id="product1" class="section-p1">
+        <h2>Scroll More</h2>
         <p>The Taste of Nature,Trusted by Generations</p>
         <div class="pro-container">
             <div class="pro">
@@ -128,11 +122,6 @@
             </div>
         </div>
      </section>
-     <section id="banner" class="section-m1">
-        <h4>Customer Services</h4>
-        <h2>up to <span>20% off </span>- All Produvts</h2>
-        <button class="normal">Explore more</button>
-     </section>
      <section id="newsletter" class="section-p1 section-m1">
         <div class="newstext">
             <h4>Sign Up For Furthur Notifications</h4>
@@ -181,10 +170,13 @@
             <p>From App Store or Google Play</p>
             <div class="row">
                 <img src="img/app-store.png" alt="">
+                
             </div>
-         </div>
+           
+        </div>
         
      </footer>
+    
      
 <script src="script.js"></script>
 </body>
